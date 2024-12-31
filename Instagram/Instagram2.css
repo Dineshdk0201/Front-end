@@ -1,0 +1,211 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+/* #main-container{
+    display: flex;
+    justify-content: center;
+   
+} */
+#container-m{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+#main-img{
+    text-align: center;
+    /* margin-right: 100px; */
+    /* margin-left: 200px; */
+}
+#top-border{
+    height: 380px;
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+}
+#img-insta1{
+    width: 170px;
+    height: 63px;
+    padding-left: 90px;
+    padding-top: 30px;
+    
+}
+#top-input{
+    text-align: center;
+    margin-top: 13px;
+}
+#input-mobile{
+    height: 30px;
+    width: 250px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+   
+
+
+}
+#input-pass{
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.3)
+
+}
+#sign-in{
+    text-align: center;
+    margin-top: 13px;
+}
+#sign-but{
+    border-radius: 10px;
+    height: 35px;
+    width: 260px;
+    background-color: rgb(0,153,255);
+    border: none;
+}
+#span1{
+    font-family: sans-serif;
+    color: rgb(236, 221, 221);
+    font-size: 14px;
+    font-weight: 600;
+}
+#line{
+    text-align: center;
+    margin-top: 20px;
+    /* padding-bottom: 90px; */
+}
+#or{
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: sans-serif;
+    font-size: 12px;
+    font: weight 500px;
+}
+#login-fb{
+    text-align: center;
+}
+#fb-logo{
+    margin-right: 6px;
+    color: rgb(15, 133, 192);
+    font-size: 21px;
+}
+#fb-text{
+    background: none;
+    text-decoration:  none;
+    color: rgb(15, 133, 192);
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+#fb-text:hover{
+    color: rgb(129, 129, 117);
+}
+#forgot-pass{
+    text-align: center;
+    margin-top: 25px;
+}
+#pass{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(26, 23, 23);
+    font-weight: 400;
+}
+#container1{
+    display: flex;
+    justify-content: center;
+
+}
+#bottom-border{
+    height: 65px;
+    width: 340px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+#login-link{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 22px;
+}
+#log-in{
+    text-decoration: none;
+    color: rgb(8, 106, 155);
+}
+#container2{
+    display: flex;
+    justify-content:center;
+}
+#get{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight:600;
+    color: rgb(17, 16, 16);
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+#g-image{
+    width: 130px;
+    height: 45px;
+    padding-right: 10px;
+    
+}
+#m-image{
+    width: 130px;
+    height: 45px;
+}
+#main-img, #main-conatiner{
+    display: inline-block;
+}
+/* #main-img{
+    margin-left: 200px ;
+} */
+#img-instagram{
+   width: 360px;
+   height: 580px;
+   
+
+}
+#link-bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  70px;
+}
+#link-bottom-container>div>a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(14, 14, 14);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#bottom2-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+select{
+    font-family: sans-serif;
+    border: none;
+    font-size: 11px;
+}
+#last{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: 200;
+    padding-left: 10px;
+}

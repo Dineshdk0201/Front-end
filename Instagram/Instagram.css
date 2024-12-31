@@ -1,0 +1,243 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+#mid-border{
+    height: 600px;
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+#img-insta{
+    width: 200px;
+    height: 60px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+#top-text{
+    width: 250px;
+    text-align: center;
+    padding-left: 50px;
+}
+#second1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+#font-top{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+.fb-img{
+    width: 17px;
+    height: 16px;
+    margin-right: 5px;
+
+
+
+}
+#fb-but{
+
+    border-radius: 10px;
+    height: 35px;
+    width: 280px;
+    background-color: rgb(0,153,255);
+    border: none;
+}
+#fb-but:hover{
+    background-color: rgba(187, 182, 182, 0.973);
+}
+span{
+    padding-bottom: 30px;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+#line{
+    text-align: center;
+    /* padding-bottom: 90px; */
+}
+#or{
+    margin-left: 10px;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight:600
+}
+#top-input{
+    text-align: center;
+}
+
+#input-mobile{
+    height: 30px;
+    width: 250px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+
+
+}
+#input-pass{
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+
+}
+#input-user{
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+
+}
+#input-fullname{
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+    
+
+}
+#down-text{
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+#down-text1{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#down1-text{
+    text-align: center;
+    margin-top: 15px;
+
+}
+#down-text2{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#link2{
+    text-decoration: none;
+    color:rgba(0, 0, 255, 0.73)
+}
+#link1{
+    text-decoration: none;
+    color:rgba(0, 0, 255, 0.73)
+}
+#sign-in{
+    text-align: center;
+    margin-top: 30px;
+}
+#sign-but{
+    border-radius: 10px;
+    height: 30px;
+    width: 260px;
+    background-color: rgb(0,153,255);
+    border: none;
+}
+#span1{
+    font-family: sans-serif;
+    color: rgb(249, 242, 242)
+}
+#container1{
+    display: flex;
+    justify-content: center;
+}
+#bottom-border{
+    height: 65px;
+    width: 340px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+#login-link{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 22px;
+}
+#log-in{
+    text-decoration: none;
+    color: rgb(8, 106, 155);
+}
+#container2{
+    display: flex;
+    justify-content:center;
+}
+#get{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight:600;
+    color: rgb(2, 1, 1);
+}
+
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+#g-image{
+    width: 130px;
+    height: 45px;
+    padding-right: 10px;
+    
+}
+#m-image{
+    width: 130px;
+    height: 45px;
+}
+#link-bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  70px;
+}
+#link-bottom-container>div>a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(14, 14, 14);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#bottom2-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+select{
+    font-family: sans-serif;
+    border: none;
+    font-size: 11px;
+}
+#last{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: 200;
+    padding-left: 10px;
+}
