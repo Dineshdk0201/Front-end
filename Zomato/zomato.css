@@ -1,0 +1,655 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+#top-container{
+    display: flex;
+    justify-content: center;
+
+}
+#zomato-bg{
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+
+}
+#content-top{
+    display: flex;
+    justify-content: center;
+}
+#get-app{
+    margin-right: 550px;
+    margin-top: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+#a-1{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 17px;
+   
+   
+}
+#logo{
+    margin-left: 30px;
+}
+#head-zomato{
+    width: 300px;
+    padding-top:0px;
+}
+#zomato{
+    text-align: center;
+    padding-left: 30px;
+}
+#foods-drinks{
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 100px;
+    color: white;
+    font-size: 40px;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 50px;
+
+    
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 3.3rem;
+    width: 48%;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+.search-container.left-search.search-container.right-search{
+    display: inline-flex;
+    padding: 0 1rem;
+}
+.search-container.left-search{
+    width: 30%;
+}
+.search-container.right-search{
+    width: 60%;
+    border-left: 2px solid rgb(138, 48, 48);
+}
+.search-container input{
+    border: 0px;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    width: 280px
+} 
+#loc{
+    color: rgb(240, 125, 125);
+    font-size: 18px;
+    padding-right: 10px;
+}
+#search{
+    color: rgba(0, 0, 0, 0.6);
+    padding-right: 10px;
+    font-size: 18px;
+}
+/* select{
+   padding-right: 0px;
+   margin-right: 40px;
+   border: 0px;
+} */
+.left-search{
+    border-right: 2px solid rgb(189, 188, 188);
+    margin-right: 20px;
+}
+.card-container1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.card1 {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    overflow: hidden;
+    width: 370px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card1 h3 {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    /* margin: 15px 0 10px; */
+    color: #333;
+    /* margin-left: 0px; */
+    margin-left: 20px;
+    
+}
+
+.card1 p {
+    font-size: 17px;
+    color: #666;
+    padding: 0 15px 15px;
+    padding-top: 7px;
+   
+}
+.card1:hover{
+    /* transform: scale(1.05); */
+    transform: translateY(-10px)scale(1.03);
+}
+/* .card1{
+    transition:transform 0.3 ease;
+} */
+#middle-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+   
+}
+#middle-container{
+    padding-right: 1150px;
+    padding-top: 120px;
+}
+
+#collections{
+    /* margin-right: 190px; */
+    margin-left: 180px;
+    font-size: 36px;
+    color: #100e0e;
+}
+#explore{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 360px;
+    padding-top: 14px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}  
+#middle-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 50px;
+
+}
+  #box1{
+    height: 310px;
+    width: 270px;
+    border-radius: 5px;
+     /* border: 1px solid black;  */
+    margin-right: 20px;
+    background-image: url('https://img.pikbest.com/backgrounds/20241120/celebrate-love-and-laughter-this-happy-new-year-2025_11116146.jpg!w700wp'); 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#box2{
+    height: 310px;
+    width: 270px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    /* margin-left: 10px; */
+     background-image: url(../HTML/MEDIA/IMAGE/newly\ open.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+#box3{
+    height: 310px;
+    width: 270px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+     margin-left: 20px;
+    background-image: url(../HTML/MEDIA/IMAGE/trending\ spots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+#box4{
+    height: 310px;
+    width: 270px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+     margin-left: 20px;
+    background-image: url(../HTML/MEDIA/IMAGE/south\ indian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+#p1{
+    padding-top: 260px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 19px;
+}
+span{
+    color: white;
+    padding-left: 10px;
+    
+}
+#middle-container3{
+    display: flex;
+    justify-content: center;
+  
+}
+#popular{
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: 100px;
+    padding-right: 580px;
+    font-size: 35px;
+    font-weight: 200;
+
+    
+}
+i{
+    color: white;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#middle-container4{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+#part1{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+#part2{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+}
+#part3{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+#middle-container5{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 60px; 
+}
+#part4{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+#part5{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+}
+#part6{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+#middle-container6{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 60px; 
+}
+#part7{
+    height: 90px;
+    width: 340px;
+    border: 1px solid rgb(217, 209, 209);
+    margin-right: 15px;
+}
+#part8{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+}
+#part9{
+    height: 90px;
+    width: 340px;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+#part1,#part2,#part3,#part4,#part5,#part6,#part7,#part8,#part9{
+    border-radius: 5px;
+    border: 1px solid rgb(217, 209, 209);
+    width: 370px;
+    padding-top: 15px;
+    height: 70px;
+   
+}
+#part1:hover,#part2:hover,#part3:hover,#part4:hover,#part5:hover,#part6:hover,#part7:hover,#part8:hover{
+    box-shadow: 0px 2px 4px silver;
+}
+#h3{
+    font-size: 18px;
+    padding-left: 16px;
+    padding-top: 17px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+#p2{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    font-size: 16px;
+    color: rgba(1, 1, 1, 0.6);
+}
+#h4{
+    font-size: 18px;
+    /* padding-left: 10px; */
+    padding-top: 15px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+
+}
+#right{
+    padding-left: 340px;
+    color: rgb(112, 110, 110);
+    font-size: 16px;
+}  
+#down{
+    color: rgb(112,110, 110);
+    font-size: 16px;
+}
+#bottom1{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 0px;
+    background-color: rgb(252, 245, 245);
+}
+#bottom-image{
+     padding-right: 60px;
+     width: 410px;
+     padding-top: 40px;
+}
+/* #zom{ */
+    /* padding-top: 80px; 
+    padding-right: 150px;
+    text-align: center; 
+    font-size: 37px;
+    font-weight: 100;
+} */
+#zomato{
+    font-weight: 100;
+    padding-top: 80px; 
+    padding-right: 150px;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: 100;
+}
+#we-will{
+    padding-top: 20px;
+    padding-left: 28px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#the-app{
+    padding-top: 8px;
+    padding-left: 28px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#email,#phone{
+    margin-top: 35px;
+    margin-left: 28px;
+}
+#phone{
+    margin-left: 60px;
+}
+#email1,#phone1{
+    padding-left: 10px;
+    font-weight: 200;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+#input-bottom{
+   margin-top: 23px;
+   height: 50px;
+   width: 290px;
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   font-size: 18px;
+   padding-left: 13px;
+   margin-left: 20px;
+}
+#bottom-input2{
+    background-color: rgb(240, 93, 93);
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+#share{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#download{
+    padding-top: 26px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 200;
+}
+#app-store{
+    width: 135px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#microsoft{
+    width: 135px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#bottom2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#explore1{
+    padding-right: 820px;
+    font-size: 28px;
+}
+#bottom3,#bottom4,#bottom5,#bottom6{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+#area1,#area2,#area3,#area4{
+    height: 65px;
+    width: 1100px;
+    border: 1px solid rgb(210, 205, 205);
+    border-radius: 7px;
+}
+#cuisines,#restuarent,#chaines,#cities{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+/* #down1{
+    color: black;
+    padding-left: 1050px;
+    
+} */
+#last-bottom1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 60px;
+    /* background-color: rgb(252, 245, 245); */
+    
+}
+#last-img{
+    padding-right: 600px;
+    width: 130px;
+}
+#last-select{
+    margin-right: 0px;
+    width: 120px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    
+}
+#english{
+    margin-right: 30px;
+    width: 120px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+}
+.footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    padding-left: 200px;
+    /* border-top: 1px solid #ddd; */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+    /* flex: 1 1 calc(25% - 20px); */
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #000;
+  }
+  
+  .social-links a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .app-links img {
+    width: 120px;
+    margin: 10px 0;
+  }
+  
+  /* .footer-bottom-text {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom-text a {
+    color: #888;
+    text-decoration: underline;
+  }
+  
+  .footer-bottom-text a:hover {
+    color: #000;
+  } */
+ .footer-section-social-links {
+    padding-top: 0px;
+    display: flex;
+    display: inline-block;
+    padding-right: 150px;
+ }
+ .footer-bottom-text{
+    display: flex;
+    justify-content: center;
+ }
+ .cont{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 150px;
+    padding-top: 60px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+ }
+ .store,.play{
+    padding-top: 0px;
+ }
+ .store{
+    padding-top: 20px;
+ }
+ .hr-div{
+    display: flex;
+    justify-content: center;
+ }
+ hr{
+  margin-top: 20px;
+  color:rgba(235, 229, 229, 0.8);
+  width: 1100px;
+  margin-right: 150px;
+
+ }
+ #link,#insta,#twitter,#facebook,#yt{
+    color: #000;
+    width: 20px;
+    padding-top: 10px;
+ }
+ #soc{
+    font-size: 16px;
+    color: #333;
+ }
+ 
