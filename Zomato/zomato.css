@@ -200,7 +200,7 @@ body{
     border-radius: 5px;
      /* border: 1px solid black;  */
     margin-right: 20px;
-    background-image: url('https://img.pikbest.com/backgrounds/20241120/celebrate-love-and-laughter-this-happy-new-year-2025_11116146.jpg!w700wp'); 
+    background-image: url(./beachResort.jpg); 
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -239,7 +239,7 @@ body{
     padding-top: 260px;
     padding-left: 10px;
     text-decoration: none;
-    color: #ddd;
+    color: #f7f3f3;
     font-size: 19px;
 }
 span{
